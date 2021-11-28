@@ -61,3 +61,6 @@ body{
     margin-bottom: 10px;
     text-align: center;
 }
+.content p {
+    text-align: justify;
+}
