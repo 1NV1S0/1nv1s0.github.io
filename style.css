@@ -1,0 +1,76 @@
+.gambar {
+    width: 590px;
+    height: 300px;
+    margin: 0px 10px 20px 0px;
+}
+.navigasi {
+    background-color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0);
+    float: center;
+    padding: 10px;
+    border: 1px solid rgb(25, 255, 17);
+    margin-top: 10px;
+    margin-left: px;
+    text-align: center;
+}
+.navigasi a {
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #FFFFFF;
+    color: #00df0b;
+    text-align: center;
+}
+@media screen and (max-width: 800px) {
+    .navigasi, .content, .gambar, .header {
+        width: 100%;
+        padding: 0;
+    }
+}
+.content {
+    padding: 10px;
+    border: 1px solid rgb(25, 255, 17);
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #FFFFFF;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+body{
+    background-color: black;
+}
+.header {
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #FFFFFF;
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer {
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #FFFFFF;
+    color: #FFFFFF;
+}
+.navigasi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+ .navigasi li {
+    float: left;
+  }
+  
+ .navigasi li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+  }
+  
+ .navigasi li a:hover {
+    background-color: #004103;
+  }
