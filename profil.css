@@ -40,12 +40,7 @@
 body{
     background-color: black;
 }
-@media screen and (max-width: 576px) {
-    .navigasi, .content, .gambar, .header, .container {
-        width: 100%;
-        padding: 0;
-    }
-}
+
 .gambar {
     width: 300px;
     height: 300px;
